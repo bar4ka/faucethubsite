@@ -29,7 +29,7 @@
 
 
 /* eslint-disable quotes, comma-spacing */
-var PrecacheConfig = [["/index.html","77a67d9936276a087e604c41b60e62e1"],["/src/my-app.html","f32f0612fe89874c9f3ff9f7f867defa"],["/src/my-view1.html","5b2393f884d7ecc4c50b375ff7528612"],["/src/my-view2.html","8256e5f02f06a132f32780b315320c2a"],["/src/my-view3.html","8cbb642c709f68bc8b078f69c824e326"],["/src/my-view404.html","b9a28746f736435f74b42f65b65b4eac"]];
+var PrecacheConfig = [["/index.html","ea46c6a3585041cfd30def348bed7be4"],["/src/my-app.html","f32f0612fe89874c9f3ff9f7f867defa"],["/src/my-view1.html","4477c1bf65644a5ea52cdc1c2efbe466"],["/src/my-view2.html","8256e5f02f06a132f32780b315320c2a"],["/src/my-view3.html","8cbb642c709f68bc8b078f69c824e326"],["/src/my-view404.html","b9a28746f736435f74b42f65b65b4eac"]];
 /* eslint-enable quotes, comma-spacing */
 var CacheNamePrefix = 'sw-precache-v1--' + (self.registration ? self.registration.scope : '') + '-';
 
