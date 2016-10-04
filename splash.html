@@ -4,12 +4,33 @@
 
   <!-- Use minimum-scale=1 to enable GPU rasterization -->
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
+
+<script type="text/javascript">
+  window.mopub = [{
+    ad_unit: "e302983d5939469ba992c4454e078a1f",
+    ad_container_id: "ad1", // Specify the div or container to which you’d like to the mobile web tag
+    ad_width: 320,
+    ad_height: 480,
+    keywords: "", // Optionally pass keywords as a comma separated list
+  } ]; // To load additional ad units, add another object into the array.
+  
+  (function() {
+    var mopubjs = document.createElement("script");
+    mopubjs.async = true;
+    mopubjs.type = "text/javascript";
+    mopubjs.src = "//d1zg4cyg8u4pko.cloudfront.net/mweb/mobileweb.min.js";
+    var node = document.getElementsByTagName("script")[0];
+    node.parentNode.insertBefore(mopubjs, node);
+  })();
+</script>
+
+
 </head>
 <body>
 <script src="//go.mobtrks.com/notice.php?p=810304&amp;interstitial=1"></script>
+<div id="ad1"></div>
 <iframe src="//www.faucethub.ga/" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"></iframe>
 <iframe src="//te-jv.com/tejvr/1/84519" scrolling="no" style="display:block; visibility:hidden" height="1px"></iframe>
-<iframe src="//www.autosurfpro.com/cgi-bin/run.cgi?userid=bitbar4ka" scrolling="no" style="display:block; visibility:hidden" height="1px"></iframe>
 <iframe src="//manyhit.com/autosurf_if.php?user=bitbar4ka" scrolling="no" style="display:block; visibility:hidden" height="1px"></iframe>
 
 
